@@ -107,6 +107,8 @@ $(document).ready(function() {
 	var table = $('.targetTable').DataTable({
 	    "ajax": "data-genre.json",
 		"deferRender": true,
+		scrollX: true,
+        scrollCollapse: true,
 		dom: 'Bfrtip',
 		buttons: [
 			'colvis',

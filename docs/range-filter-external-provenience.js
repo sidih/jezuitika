@@ -107,8 +107,6 @@ $(document).ready(function() {
 	var table = $('.targetTable').DataTable({
 	    "ajax": "data-provenience.json",
 		"deferRender": true,
-		scrollX: true,
-        scrollCollapse: true,
 		dom: 'Bfrtip',
 		buttons: [
 			'colvis',
